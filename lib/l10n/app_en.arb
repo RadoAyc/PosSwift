@@ -1,0 +1,102 @@
+{
+  "@@locale": "en",
+  "appTitle": "Supermarket POS",
+  "addProductTitle": "Add Product",
+  "productNameLabel": "Product Name",
+  "descriptionLabel": "Description",
+  "categoryLabel": "Category",
+  "supplierLabel": "Supplier",
+  "warehouseLabel": "Warehouse",
+  "purchasePriceLabel": "Purchase Price",
+  "taxRateLabel": "Tax Rate (%)",
+  "sellingPriceLabel": "Selling Price",
+  "alertQuantityLabel": "Alert Quantity",
+  "barcodesLabel": "Barcodes",
+  "addBarcodeButtonLabel": "Add Barcode",
+  "addPackageBarcodeToggleLabel": "Add Package Barcode",
+  "unitsPerCaseLabel": "Units per Case",
+  "saveButtonLabel": "Save",
+  "resetButtonLabel": "Reset",
+  "sellingPriceValidation": "Selling price must be >= Purchase Price",
+  "formValidationFailed": "Please correct the errors in the form.",
+  "atLeastOneBarcodeRequired": "At least one barcode is required.",
+  "duplicateBarcodesFound": "Duplicate barcodes found.",
+  "productAddedSuccessfully": "Product added successfully!",
+  "errorSavingProduct": "Error saving product: {error}",
+  "@errorSavingProduct": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "barcodeLabel": "Barcode",
+  "deleteBarcodeButtonTooltip": "Delete Barcode",
+  "productImageLabel": "Product Image",
+  "chooseImageButtonLabel": "Choose Image",
+  "productNameRequired": "Product Name is required",
+  "productNameMax100Chars": "Product Name must be max 100 characters",
+  "descriptionMax255Chars": "Description must be max 255 characters",
+  "categoryRequired": "Category is required",
+  "warehouseRequired": "Warehouse is required",
+  "purchasePriceRequired": "Purchase Price is required",
+  "purchasePriceInvalid": "Please enter a valid price (>= 0)",
+  "taxRateInvalid": "Please enter a valid tax rate (0-100)",
+  "sellingPriceRequired": "Selling Price is required",
+  "sellingPriceInvalid": "Please enter a valid price (>= 0)",
+  "alertQuantityInvalid": "Please enter a valid quantity (>= 0)",
+  "unitsPerCaseInvalid": "Please enter a valid number of units (>= 0)",
+  "productListTitle": "Product List",
+  "productPriceAndQuantity": "Price: {price} - Quantity: {quantity}",
+  "@productPriceAndQuantity": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "quantity": {
+        "type": "int"
+      }
+    }
+  },
+  "addProductButtonTooltip": "Add Product",
+  "addPurchaseInvoiceTitle": "Add Purchase Invoice",
+  "invoiceNumberLabel": "Invoice Number",
+  "invoiceDateLabel": "Invoice Date",
+  "purchaseStatusLabel": "Purchase Status",
+  "statusPending": "Pending",
+  "statusReceived": "Received",
+  "statusPartiallyReceived": "Partially Received",
+  "productsSectionTitle": "Products",
+  "productLabel": "Product",
+  "quantityLabel": "Quantity",
+  "taxLabel": "Tax (%)",
+  "lineTotalLabel": "Line Total",
+  "addProductLineButtonLabel": "Add Product Line",
+  "totalsSectionTitle": "Totals",
+  "subtotalLabel": "Subtotal",
+  "additionalCostsLabel": "Additional Costs",
+  "grandTotalLabel": "Grand Total",
+  "invoiceAttachmentLabel": "Invoice Attachment",
+  "addAttachmentButtonLabel": "Add Attachment",
+  "commentLabel": "Comment",
+  "saveInvoiceButtonLabel": "Save Invoice",
+  "cancelButtonLabel": "Cancel",
+  "deleteItemTooltip": "Delete Item",
+  "atLeastOneProductRequired": "At least one product line is required.",
+  "invoiceSavedSuccessfully": "Purchase Invoice saved successfully!",
+  "errorSavingInvoice": "Error saving invoice: {error}",
+  "@errorSavingInvoice": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "supplierRequired": "Supplier is required",
+  "warehouseRequired": "Warehouse is required",
+  "productRequired": "Product is required",
+  "quantityRequired": "Quantity is required",
+  "quantityInvalid": "Please enter a valid quantity (>= 1)",
+  "purchasePriceRequired": "Purchase Price is required",
+  "purchasePriceInvalid": "Please enter a valid price (>= 0)"
+}

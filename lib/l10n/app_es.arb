@@ -1,0 +1,6 @@
+{
+    "@@locale": "es",
+    "appTitle": "Supermercado POS",
+    "addProductTitle": "Agregar Producto",
+    "productNameLabel": "Nombre del Producto"
+}
